@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+.main-header h1 {
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Coiny', cursive;  
+    text-align: center;
+    border-bottom: 5px solid black;
+    
+}

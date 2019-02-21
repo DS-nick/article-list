@@ -47,7 +47,7 @@ getBody() {
     const {article, isOpen} = this.props
     if(!isOpen) return null
     
-    return <div><section>{article.text}</section><CommentList comments = {article.comments}/></div>
+    return <div class = 'article-conteiner'><section>{article.text}</section><CommentList comments = {article.comments}/></div>
 }
 }
 export default connect(null, {deleteArticle})(Article)

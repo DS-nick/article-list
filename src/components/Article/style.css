@@ -15,7 +15,6 @@
     opacity: 0.01;
     transition: opacity 300ms ease-in;
   }
-  div {
-    width: 100%;
-    margin: 0;
+  .article-conteiner {
+    margin: 0 50px;
   }
